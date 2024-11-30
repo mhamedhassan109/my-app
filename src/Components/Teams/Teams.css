@@ -1,0 +1,74 @@
+.teams {
+    border: 2px solid #ededed;
+    position: relative;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    transition: 0.4s;
+
+}
+
+.teams:hover {
+    box-shadow: 1px 1px 20px rgba(150, 147, 147, 0.445);
+}
+
+
+
+.teams .imags {
+    position: relative;
+}
+
+.teams .imags .imgphoto {
+    width: 136px;
+    position: absolute;
+    z-index: 0;
+    left: 25%;
+    top: 28%;
+    border-radius: 35px 37px 78px 77px;
+}
+
+.teams .imags .imgcicle1 {
+    position: absolute;
+    width: 212px;
+    z-index: 1;
+    left: 38px;
+    top: 24px;
+    opacity: 0.30;
+    transition: 1s;
+}
+
+
+.teams .imags .imgcicle2 {
+    opacity: 0.30;
+    transition: 1s;
+}
+
+.teams:hover .imgcicle1,
+.teams:hover .imgcicle2 {
+    opacity: 1;
+}
+
+.teams .info {
+    position: relative;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.teams .info h2 {
+    color: var(--main-color);
+    font-weight: 700;
+}
+
+.teams .info h5 {
+    color: var(--scound-color);
+    font-weight: 700;
+}
+
+.teams .info .socila ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    margin-left: -30px;
+}

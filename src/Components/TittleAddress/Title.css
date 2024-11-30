@@ -1,0 +1,12 @@
+.Title {
+    text-align: center;
+}
+
+.Title .row h5 {
+    color: var(--scound-color);
+    font-size: 30px;
+}
+
+.Title .row h2 {
+    font-size: 50px;
+}

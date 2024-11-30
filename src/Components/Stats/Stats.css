@@ -1,0 +1,56 @@
+.Stats {
+    background-color: #ededed;
+    position: relative;
+}
+
+.Stats .statsbox {
+    border: 2px solid var(--main-color);
+    text-align: left;
+    border-radius: 30px;
+    margin: 50px 0px;
+    margin-right: 10px;
+}
+
+.Stats .statsbox .boxing {
+    transform: translate(15px, 15px);
+    background-color: white;
+    padding: 20px 17px;
+    border-radius: 30px;
+    text-align: left;
+    transition: 1s;
+}
+
+.Stats .statsbox .boxing:hover {
+    background-color: var(--btn-color);
+
+}
+
+.Stats .statsbox .boxing:hover h2,
+.Stats .statsbox .boxing:hover h3,
+.Stats .statsbox .boxing:hover p {
+    color: white;
+}
+
+
+
+.Stats .boxing h2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--scound-color);
+
+
+}
+
+.Stats .boxing h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--main-color);
+    margin-bottom: 20px;
+
+}
+
+.Stats .boxing p {
+    color: #333;
+    font-weight: 500;
+
+}

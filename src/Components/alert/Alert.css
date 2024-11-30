@@ -1,0 +1,40 @@
+.Alert {
+    text-align: center;
+}
+
+.Alert .row h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 260px;
+    color: var(--main-color);
+    font-weight: 800;
+}
+
+.Alert .row h4 {
+    color: var(--main-color);
+    font-size: 40px;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+}
+
+.Alert .row p {
+    color: #333;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Alert .row .btns button {
+    background-color: var(--btn-color);
+    margin-right: 10px;
+
+}
+
+.Alert .row .btns button a {
+    color: white;
+    font-size: 20px;
+
+}

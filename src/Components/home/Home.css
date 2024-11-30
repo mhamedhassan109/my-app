@@ -1,0 +1,118 @@
+header {
+    margin-top: 0;
+    position: relative;
+    background-image: url("../../Assets/headerback.png");
+    background-size: cover;
+
+}
+
+header span.plus {
+    position: absolute;
+    top: 460px;
+    left: 25%;
+    font-size: 100px;
+    color: rgba(255, 136, 0, 0.267);
+    -webkit-text-stroke: 1px var(--scound-color);
+    -o-text-stroke: 1px var(--scound-color);
+    -moz-text-stroke: 1px var(--scound-color);
+    animation: mover 1.5s infinite alternate-reverse linear;
+}
+
+header svg.circle {
+    position: absolute;
+    top: 113px;
+    left: 200px;
+    opacity: 0.4;
+    font-size: 40px;
+    color: var(--scound-color);
+}
+
+header .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+header .row h5 {
+    color: var(--btn-color);
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+header .row h2 {
+    font-size: 40px;
+    color: var(--main-color);
+    font-weight: 800;
+    margin: 30px 0px;
+
+}
+
+header .row button {
+    margin-top: 30px;
+    background-color: var(--scound-color);
+    border-color: var(--scound-color);
+    transition: 1s;
+}
+
+header .row button:hover {
+    opacity: 0.7;
+}
+
+header .row button a {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    height: 50px;
+
+}
+
+header .row .holder-box {
+    position: relative;
+
+}
+
+header .row img.imgHome {
+    width: 450px;
+    animation: mover 1.5s infinite alternate-reverse linear;
+}
+
+
+@keyframes mover {
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+header .holder-box svg {
+    color: var(--btn-color);
+    opacity: 0.4;
+    font-size: 80px;
+    position: absolute;
+    left: -30px;
+    top: 10px;
+    transform: rotate(210deg) !important;
+    animation: mover 2.5s infinite alternate-reverse linear;
+}
+
+
+/*media quary response*/
+@media (max-width:770px) {
+    header {
+        margin-top: 50px;
+    }
+
+    header .row {
+        text-align: center;
+    }
+
+    header .row .holder-box {
+        margin-top: 30px;
+    }
+}

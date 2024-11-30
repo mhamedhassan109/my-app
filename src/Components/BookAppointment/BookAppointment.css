@@ -1,0 +1,105 @@
+.BookAppointment {
+    background-color: #F5F5FC;
+}
+
+.BookAppointment .bookBox {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.BookAppointment .bookBox h2 {
+    color: var(--main-color);
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.BookAppointment .bookBox form select,
+.BookAppointment .bookBox form input {
+    display: block;
+    width: 95%;
+    height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid var(--btn-color);
+    border-radius: 7px;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.BookAppointment .bookBox form input::placeholder {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.BookAppointment .bookBox form input.submit {
+    background-color: var(--scound-color);
+    color: white;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    font-weight: 600;
+    transition: 1s;
+}
+
+.BookAppointment .bookBox form input.submit:hover {
+    opacity: 0.80;
+}
+
+/*BookAppointment images*/
+
+.BookAppointment .bookImages {
+    display: flex;
+    position: relative;
+}
+
+.BookAppointment .bookImages .photo2 {
+    height: 398px;
+    transform: translate(-250px, 180px);
+    animation: step infinite 3s alternate;
+}
+
+@keyframes step {
+
+    100% {
+        transform: translate(-270px, 180px);
+    }
+}
+
+
+.BookAppointment .bookImages .map {
+    position: absolute;
+    left: 85px;
+    top: 255px;
+    width: 81px;
+    animation: stepy infinite alternate 2s;
+}
+
+.BookAppointment .bookImages .setting {
+    position: absolute;
+    right: 214px;
+    top: 355px;
+    width: 81px;
+    animation: stepy infinite alternate 1s;
+
+}
+
+.BookAppointment .bookImages .cheak {
+    position: absolute;
+    left: 23px;
+    top: 139px;
+    width: 54px;
+    animation: stepy infinite alternate 1s;
+}
+
+@keyframes stepy {
+    0% {
+        transform: translatey(-10px);
+    }
+
+
+}

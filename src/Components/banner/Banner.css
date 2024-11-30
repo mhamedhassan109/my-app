@@ -1,0 +1,54 @@
+.Banner {
+    margin-top: 100px;
+    text-align: center;
+    background-image: url("../../Assets/footerbackground.jpg");
+    height: 50vh;
+    padding: 20px 0;
+    position: relative;
+}
+
+.Banner .inmy1 {
+    position: absolute;
+    left: 30px;
+    bottom: 40px;
+}
+
+.Banner .row h2 {
+    margin-bottom: 30px;
+    font-size: 50px !important;
+    font-weight: 800;
+    color: var(--main-color);
+}
+
+.Banner .row .holder-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: var(--btn-color);
+    width: 300px;
+    padding: 16px 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+
+.Banner .row .holder-links a {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+
+
+}
+
+.Banner .row .holder-links span {
+    color: white;
+    font-size: 20px;
+}
+
+.Banner .row .holder-links svg {
+    margin-right: 10px;
+    font-size: 20px;
+    color: white;
+}

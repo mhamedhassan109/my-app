@@ -1,0 +1,171 @@
+.contact {
+    background-color: #ededed57;
+    padding: 10px;
+}
+
+.contact .contact-form {
+    background-color: white;
+    margin: 40px 0;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.contact .contact-form form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+}
+
+.contact .contact-form form p {
+    color: white;
+    background-color: rgba(255, 3, 3, 0.295);
+    padding: 10px;
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+.contact .contact-form form input {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 10px;
+    transition: 1s;
+}
+
+.contact .contact-form form input:hover {
+    border-color: var(--main-color);
+}
+
+.contact .contact-form form input::placeholder {
+    color: #333;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.contact .contact-form form select {
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;
+    height: 60px;
+    padding: 10px;
+    transition: 1s;
+    border-radius: 6px;
+}
+
+.contact .contact-form form select:hover {
+    border-color: var(--main-color);
+}
+
+.contact .contact-form form select:focus {
+    outline: none;
+}
+
+.contact .contact-form form textarea {
+    resize: none;
+    height: 140px;
+    border-radius: 6px;
+    transition: 1s;
+}
+
+.contact .contact-form form textarea:hover {
+    border-color: var(--main-color);
+}
+
+.contact .contact-form form textarea::placeholder {
+    color: #333;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.contact .contact-form form textarea:focus {
+    outline: none;
+}
+
+.contact .contact-form form .submit {
+    background-color: var(--scound-color);
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    border-color: var(--scound-color);
+    transition: 1s;
+}
+
+.contact .contact-form form .submit:hover {
+    opacity: 0.8;
+}
+
+
+/*section information form*/
+.infoForm {
+    background-image: url("../../Assets/contactinfo.jpg");
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    color: white;
+
+
+}
+
+.contact .infoForm::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #565acfb8;
+
+}
+
+.contact .infoForm .info {
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+}
+
+.contact .infoForm .info h2 {
+    font-size: 40px;
+    font-weight: 800;
+    margin: 30px 0;
+}
+
+.contact .infoForm .info .loction,
+.contact .infoForm .info .emails,
+.contact .infoForm .info .folow {
+    margin-bottom: 15px;
+}
+
+.contact .infoForm .info h3 {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+    width: 70%;
+}
+
+.contact .infoForm .info p {
+    color: white;
+    font-weight: 600;
+}
+
+.contact .infoForm .info .folow ul {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.contact .infoForm .info .folow ul li {
+    background-color: red;
+    padding: 7px;
+    border-radius: 9px;
+    background-color: #b9d5ff;
+}

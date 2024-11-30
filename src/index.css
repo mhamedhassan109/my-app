@@ -1,13 +1,86 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+    --main-color: #1F2278;
+    --scound-color: #F17732;
+    --btn-color: #565ACF;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: "Tajawal", sans-serif !important;
+    text-transform: capitalize !important;
+    /* background-color: #333 !important; */
+}
+
+
+
+section,
+footer,
+header {
+    width: 100%;
+    height: auto;
+    padding: 25px 0px;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none !important;
+    text-transform: capitalize;
+}
+
+span {
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+button {
+    border-radius: 7px !important;
+    padding: 5px;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid #7777;
+
+}
+
+p {
+    line-height: 1.7;
+    color: #7777;
+
+}
+
+input {
+    padding: 5px 20px;
+    border-radius: 7px;
+    text-align: left;
+    color: #333;
+    font-size: 17px;
+    border: 1px solid #7777;
+
+}
+
+input:focus {
+    outline: none;
+}
+
+img {
+    max-width: 100%;
 }

@@ -1,0 +1,132 @@
+.AboutInfo {
+    position: relative;
+
+}
+
+
+.AboutInfo .holder-groop .group-one,
+.AboutInfo .holder-groop .group-two {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 10px 0;
+}
+
+.AboutInfo .holder-groop img {
+    width: 220px;
+}
+
+.AboutInfo .holder-groop img.photo1 {
+    border-radius: 1px 50px 40px 40px;
+    width: 250px;
+}
+
+.AboutInfo .holder-groop img.photo2 {
+    border-radius: 50px 0px 40px 40px;
+    width: 290px;
+}
+
+.AboutInfo .holder-groop img.photo3 {
+    border-radius: 50px 40px 40px 0px;
+    width: 250px;
+}
+
+.AboutInfo .holder-groop .number {
+    border: 2px solid var(--main-color);
+    width: 250px;
+    height: 230px;
+    margin: 10px 0px;
+    border-radius: 50px 40px 0px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px 0px;
+}
+
+.AboutInfo .holder-groop .number h2 {
+    font-size: 90px;
+    color: var(--btn-color);
+}
+
+.AboutInfo .holder-groop .number h4 {
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--main-color);
+}
+
+
+/*section  holder-information*/
+.AboutInfo .holder-information {
+    padding: 15px;
+
+}
+
+.AboutInfo .holder-information h4 {
+    color: var(--scound-color);
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.AboutInfo .holder-information h2 {
+    font-size: 40px;
+    color: var(--main-color);
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.AboutInfo .holder-information p {
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+/*icons*/
+
+.holder-icons .icon-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.holder-icons .icon-card .icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    border: 1px solid var(--main-color);
+    box-shadow: 1px 1px 5px var(--btn-color);
+    padding: 12px 10px;
+    flex-basis: 49%;
+    margin-bottom: 35px;
+    border-radius: 6px;
+}
+
+.holder-icons .icon-card .icons:hover svg {
+    transform: translateX(10px)
+}
+
+.holder-icons .icon-card .icons svg {
+    font-size: 25px;
+    border-radius: 40%;
+    color: var(--btn-color);
+    transition: 0.2;
+
+}
+
+.holder-icons .icon-card .icons h3 {
+    font-size: 20px;
+    color: var(--main-color);
+}
+
+.AboutInfo .holder-icons button {
+    background-color: var(--btn-color);
+    color: white;
+    text-transform: capitalize;
+    border-color: var(--btn-color);
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: -30px;
+}

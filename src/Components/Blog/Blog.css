@@ -1,0 +1,83 @@
+.Blog .blogBox {
+    padding: 20px;
+    border: 1px solid var(--btn-color);
+    border-radius: 10px;
+    transition: 1s;
+    margin-bottom: 20px;
+}
+
+.Blog .blogBox:hover {
+    box-shadow: 1px 1px 20px rgb(195, 195, 212);
+}
+
+.Blog .blogBox .blogPhoto img {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+.Blog .blogBox .blogTittle {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    margin-bottom: 20px;
+}
+
+
+
+.Blog .blogBox .blogTittle .smallimg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.Blog .blogBox .blogTittle h6 {
+    color: var(--scound-color);
+    font-weight: 600;
+}
+
+.Blog .blogBox .blogTittle h5 {
+    color: var(--scound-color);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.Blog .blogBox .blogSub {}
+
+.Blog .blogBox .blogSub h2 {
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--main-color);
+    margin-bottom: 20px;
+}
+
+.Blog .blogBox .blogSub button {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid var(--btn-color);
+    text-transform: capitalize;
+    font-size: 20px;
+    color: var(--btn-color);
+    margin-top: 10px;
+    transition: 1s;
+}
+
+.Blog .blogBox .blogSub button:hover {
+    background-color: var(--btn-color);
+    color: white;
+}
+
+.Blog .blogBox .blogSub button span {
+
+    background-color: var(--btn-color);
+    color: white;
+    width: 36px;
+    height: 36px;
+    border-radius: 6px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
